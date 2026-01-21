@@ -83,6 +83,7 @@ a {
 }
 
 #Shop-by-Jewelry-Type-text h1 {
+    text-transform: uppercase;
     color: rgb(0, 4, 8);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
@@ -199,3 +200,5 @@ a {
     align-items: center;
     justify-content: right;
 }
+
+/* <!-- OUR LATEST JEWELRY Section --> */
