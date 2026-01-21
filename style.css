@@ -251,6 +251,105 @@ a {
     transition: all ease-in-out 0.5s;
 }
 
-#div-button-5 #btn:hover{
+#div-button-5 #btn:hover {
     background-color: #0451b6;
+}
+
+/* <!-- Customer reviews section --> */
+
+/* #mina3{
+    margin-top: 100px;
+} */
+
+#allDivs{
+    margin-top: 40px;
+}
+
+#Customer-reviews-text {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#Customer-reviews-text h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+#allDivs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#div1 {
+    border: 1px solid black;
+    padding: 25px;
+}
+
+#div1 img {
+    width: 30px;
+}
+
+#div1 p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+#div1 #paraBold1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+#paraBold {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+
+#div2 img {
+    width: 30px;
+}
+
+#div2 p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500
+}
+
+#div2 #paraBold {
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+#div2 {
+    border: 1px solid black;
+    padding: 25px;
+}
+
+
+
+#div3 img {
+    width: 30px;
+}
+
+#div3 p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+#div3 {
+    border: 1px solid black;
+    padding: 25px;
+}
+
+
+#div3 #paraBold {
+    margin-top: 20px;
+    font-weight: 800;
 }
