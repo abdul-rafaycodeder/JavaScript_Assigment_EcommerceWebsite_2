@@ -138,7 +138,9 @@ a {
 
 #left-section {
     background-color: #002D69;
-    padding: 0px 40px 0px ;
+    padding: 0px 40px 0px;
+    padding: 30px;
+
 }
 
 #div-h1 {}
@@ -146,7 +148,7 @@ a {
 #div-h1 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
-    font-size: 43px;
+    font-size: 54px;
     color: white;
 }
 
@@ -157,33 +159,42 @@ a {
 #div-para p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 21px;
     color: white;
-
 }
 
 #div-button {
-    margin-top: 7px;
+    margin-top: 10px;
 }
 
 #div-button button {
-    padding: 8px;
-    mask-border: 14px;
-    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding: 8px 24px;
+    border-radius: 5px;
+    font-size: 13px;
     color: rgb(0, 0, 0);
+    background-color: white;
+    border: none;
+    transition: all ease-in-out 0.5s;
+}
 
+#div-button button:hover {
+    background-color: #0063d3;
 }
 
 #right-section {
-    background-color: #0063d3;
+    background-color: #002D69;
 }
 
 /* img */
 
-#div-img {}
+#div-img {
+    margin-left: 85px;
+}
 
 #div-img img {
-    width: 42em;
+    width: 40em;
     display: flex;
     align-items: center;
     justify-content: right;
