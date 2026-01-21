@@ -371,3 +371,48 @@ margin-top: 30px;
     font-weight: 700;
     font-size: 40px;
 }
+
+#images4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#images4 img{
+    height: 392.1860046386719px;
+    width: 392.1860046386719px;
+}
+
+#image-text4{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#image-text4 p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#div-button-6{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-button-6 button{
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 45, 105, 1);
+    transition: all ease-in-out 0.5s;
+}
+
+#div-button-6 button:hover{
+    background-color: rgb(23, 86, 168);
+}
