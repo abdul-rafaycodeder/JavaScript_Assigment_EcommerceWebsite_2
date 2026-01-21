@@ -202,3 +202,38 @@ a {
 }
 
 /* <!-- OUR LATEST JEWELRY Section --> */
+
+#mina2 {
+    /* background-color: #0063d3; */
+    margin-top: 30px;
+}
+
+#OUR-LATEST-JEWELRY-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#OUR-LATEST-JEWELRY-text h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#images-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#images-2 img {
+    width: 392.20px;
+    height: 392.50px;
+}
+
+
+
+#div-button-2 #btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
