@@ -1,0 +1,190 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border: 0px 5px solid black;
+}
+
+#nav-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0D5EBA;
+}
+
+#nav-text h1 {
+    transition: all ease-in-out 0.5s;
+    color: #0063d3;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav-text h1:hover {
+    color: #15457b;
+}
+
+#nav-links li {
+    list-style: none;
+    transition: all ease-in-out 0.5s;
+    font-size: 20px;
+
+}
+
+#nav-links li:hover {
+    color: #0063d3;
+}
+
+#nav-links a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+
+}
+
+#nav-links img {
+    margin-left: 20px;
+}
+
+#nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+/* hrro section */
+
+#hero-img img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+/* <!-- Shop by Jewelry Type section --> */
+
+#mina {
+    /* background-color: #0063d3; */
+}
+
+#Shop-by-Jewelry-Type-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#Shop-by-Jewelry-Type-text h1 {
+    color: rgb(0, 4, 8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+#images-main {
+    /* background-color: aqua; */
+}
+
+#images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#images img {
+    width: 221.35px;
+    height: 221.35px;
+}
+
+#image-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#image-text p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-left: 24px;
+    font-size: 20px;
+}
+
+#image-text #side {
+    margin-left: 80px;
+}
+
+#image-text #side-2 {
+    margin-right: -10px;
+}
+
+/* hero section 2 */
+
+#main {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #002D69;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+#left-section {
+    background-color: #002D69;
+    padding: 0px 40px 0px ;
+}
+
+#div-h1 {}
+
+#div-h1 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 43px;
+    color: white;
+}
+
+#div-para {
+    margin-top: 4px;
+}
+
+#div-para p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+
+}
+
+#div-button {
+    margin-top: 7px;
+}
+
+#div-button button {
+    padding: 8px;
+    mask-border: 14px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+
+}
+
+#right-section {
+    background-color: #0063d3;
+}
+
+/* img */
+
+#div-img {}
+
+#div-img img {
+    width: 42em;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
