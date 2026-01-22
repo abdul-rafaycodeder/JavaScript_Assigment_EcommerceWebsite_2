@@ -1,6 +1,5 @@
 gsap.registerPlugin(ScrollTrigger);
 
-/* Navbar */
 gsap.from("nav", {
     y: -80,
     opacity: 0,
@@ -8,7 +7,6 @@ gsap.from("nav", {
     ease: "power3.out"
 });
 
-/* Hero Image */
 gsap.from("#hero-img img", {
     scale: 1.1,
     opacity: 0,
@@ -16,7 +14,6 @@ gsap.from("#hero-img img", {
     ease: "power3.out"
 });
 
-/* Sections animation */
 gsap.utils.toArray("section, #mina, #mina2, #mina3, #mina4").forEach(section => {
     gsap.from(section, {
         scrollTrigger: {
@@ -30,7 +27,7 @@ gsap.utils.toArray("section, #mina, #mina2, #mina3, #mina4").forEach(section => 
     });
 });
 
-/* Buttons hover micro animation */
+
 gsap.utils.toArray("button").forEach(btn => {
     btn.addEventListener("mouseenter", () => {
         gsap.to(btn, { scale: 1.05, duration: 0.2 });
