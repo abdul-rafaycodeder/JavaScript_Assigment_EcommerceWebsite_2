@@ -246,3 +246,35 @@ function resendImage5() {
 
     image.src = "./images/t4.png"
 }
+
+
+
+// const audio = document.getElementById("brandAudio");
+
+// const playOnce = () => {
+//     audio.play().catch(() => { });
+//     document.removeEventListener("click", playOnce);
+//     document.removeEventListener("keydown", playOnce);
+//     document.removeEventListener("touchstart", playOnce);
+// };
+
+// document.addEventListener("click", playOnce);
+// document.addEventListener("keydown", playOnce);
+// document.addEventListener("touchstart", playOnce);
+
+
+const audio = document.getElementById("brandAudio");
+
+function playBrandAudio() {
+    audio.currentTime = 0;
+    audio.play().catch(() => { });
+
+    document.removeEventListener("click", playBrandAudio);
+    document.removeEventListener("keydown", playBrandAudio);
+    document.removeEventListener("touchstart", playBrandAudio);
+}
+
+// Har refresh par dobara attach hoga
+document.addEventListener("click", playBrandAudio);
+document.addEventListener("keydown", playBrandAudio);
+document.addEventListener("touchstart", playBrandAudio);
