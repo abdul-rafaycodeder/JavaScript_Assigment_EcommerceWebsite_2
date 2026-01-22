@@ -499,6 +499,10 @@ html {
   gap: 30px;
 }
 
+#videoCardMain{
+    margin-top: 120px;
+}
+
 .media-card {
   position: relative;
   border-radius: 18px;
