@@ -14,34 +14,114 @@
 
 <body>
 
-    
+    <div id="mainFullWebsite">
 
-    <div id="fullPageMain">
-        <nav>
-            <div id="nav-text">
-                <a href="">
-                    <h1>Bayside fine jewelry</h1>
-                </a>
+        <header class="navbar">
+            <div class="nav-container">
+
+                <!-- LOGO -->
+                <div class="logo">
+                    Khareed <span>loo</span>
+                </div>
+
+                <!-- SEARCH BAR -->
+                <div class="nav-search">
+                    <input type="text" placeholder="Search products..." />
+                    <i class="fas fa-search"></i>
+                </div>
+
+                <!-- NAV LINKS -->
+                <nav class="nav-links" id="navLinks">
+                    <a href="#" class="active">Home</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Services</a>
+                    <a href="#">About</a>
+                    <a href="#" class="contact-btn">Contact</a>
+                </nav>
+
+                <!-- HAMBURGER -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
             </div>
-            <div id="nav-links">
-                <a href="">
-                    <li>Home</li>
-                </a>
-                <a href="">
-                    <li>Shop</li>
-                </a>
-                <a href="">
-                    <li>Services</li>
-                </a>
-                <a href="">
-                    <li>About</li>
-                </a>
-                <a href="">
-                    <li>Contact</li>
-                </a>
-                <img src="./images/Mask Group.png" alt="logo">
+        </header>
+
+
+        <!-- ----------------------carousel-------------------- -->
+
+
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <div class="slide">
+                    <img src="./images/carousel image 1.png" alt="Slide 1">
+
+                </div>
+                <div class="slide">
+                    <img src="./images/carousel image 3.png" alt="Slide 2">
+
+                </div>
+                <div class="slide">
+                    <img src="./images/carousel image 2.png" alt="Slide 3">
+
+                </div>
             </div>
-        </nav>
+
+            <!-- Navigation -->
+            <button class="carousel-btn prev">&#10094;</button>
+            <button class="carousel-btn next">&#10095;</button>
+
+            <!-- Dots -->
+            <div class="carousel-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+
+        <!-- -------------------------cards-section---------------------->
+
+        <section class="cards-section">
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./images/card 1.png" alt="Card 1">
+                    <div class="card-details">
+                        <h3>Product 1</h3>
+                        <p>Clean and modern design.</p>
+                        <button id="alert" onclick="alert()">Shop Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/card 2.png" alt="Card 2">
+                    <div class="card-details">
+                        <h3>Product 2</h3>
+                        <p>High-quality professional layout.</p>
+                        <button id="alert" onclick="alert()">Shop Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/card 3.png" alt="Card 3">
+                    <div class="card-details">
+                        <h3>Product 3</h3>
+                        <p>Fully responsive and sleek.</p>
+                        <button id="alert" onclick="alert()">Shop Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/card 4.png" alt="Card 4">
+                    <div class="card-details">
+                        <h3>Product 4</h3>
+                        <p>Interactive hover effects.</p>
+                        <button id="alert" onclick="alert()">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
 
         <!-- hero section -->
 
@@ -248,14 +328,13 @@
 
         </div>
 
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-
-        <script src="gsap.js"></script>
+    </div>
 
 
-        <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="gsap.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
