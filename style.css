@@ -201,6 +201,20 @@ a {
     justify-content: right;
 }
 
+
+
+
+#showImage{
+    padding: 10px 15px;
+    background-color: #0063d3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
 /* <!-- OUR LATEST JEWELRY Section --> */
 
 #mina2 {
