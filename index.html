@@ -84,6 +84,23 @@
 
         <!-- -------------------------cards-section---------------------->
 
+
+        <div id="main-items">
+            <div id="main-items">
+                <p id="para1">Main Items</p>
+            </div>
+            <div id="main2">
+                <div id="Most-Loved-Products">
+                    <h2>Most-Loved Products</h2>
+                </div>
+                <div id="main3">
+                    <div id="para">
+                        <p>Discover the top-rated and most popular picks that everyone’s talking about.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <section class="cards-section">
             <div class="cards-container">
                 <div class="card">
@@ -91,7 +108,7 @@
                     <div class="card-details">
                         <h3>Product 1</h3>
                         <p>Clean and modern design.</p>
-                        <button id="alert" onclick="alert()">Shop Now</button>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
                     </div>
                 </div>
                 <div class="card">
@@ -99,7 +116,7 @@
                     <div class="card-details">
                         <h3>Product 2</h3>
                         <p>High-quality professional layout.</p>
-                        <button id="alert" onclick="alert()">Shop Now</button>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
                     </div>
                 </div>
                 <div class="card">
@@ -107,7 +124,7 @@
                     <div class="card-details">
                         <h3>Product 3</h3>
                         <p>Fully responsive and sleek.</p>
-                        <button id="alert" onclick="alert()">Shop Now</button>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
                     </div>
                 </div>
                 <div class="card">
@@ -115,13 +132,172 @@
                     <div class="card-details">
                         <h3>Product 4</h3>
                         <p>Interactive hover effects.</p>
-                        <button id="alert" onclick="alert()">Shop Now</button>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- image chnage cards -->
 
+        <section class="cards-section">
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./images/card 1.png" alt="Card 1" onmouseover="changeImage1()" id="iamgeChange1"
+                        onmouseleave="resendImage1()">
+                    <div class="card-details">
+                        <h3>Product 1</h3>
+                        <p>Clean and modern design.</p>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/card 2.png" alt="Card 2" onmouseover="changeImage2()" id="changeImage2"
+                        onmouseleave="resendImage2()">
+                    <div class="card-details">
+                        <h3>Product 2</h3>
+                        <p>High-quality professional layout.</p>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/card 3.png" alt="Card 3" onmouseover="changeImage3()" id="changeImage3"
+                        onmouseleave="resendImage3()">
+                    <div class="card-details">
+                        <h3>Product 3</h3>
+                        <p>Fully responsive and sleek.</p>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/card 4.png" alt="Card 4" onmouseover="changeImage4()" id="changeImage"
+                        onmouseleave="resendImage4()">
+                    <div class="card-details">
+                        <h3>Product 4</h3>
+                        <p>Interactive hover effects.</p>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- video cards -->
+
+        <section class="media-cards-section">
+            <div class="media-cards">
+
+                <div class="media-card">
+                    <img src="./images/card 3.png" alt="Product 1">
+                    <video src="./images/card 3.png" muted loop></video>
+
+                    <div class="media-content">
+                        <h3>Product One</h3>
+                        <p>Premium quality</p>
+                        <button id="alert" onclick="alertFunction()" id="alert" onclick="alertFunction()">Shop
+                            Now</button>
+                    </div>
+                </div>
+
+                <div class="media-card">
+                    <img src="./images/card 4.png" alt="Product 2">
+                    <video src="./images/card video 2.mp4" muted loop></video>
+
+                    <div class="media-content">
+                        <h3>Product Two</h3>
+                        <p>Modern design</p>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="media-card">
+                    <img src="./images/card 1.png" alt="Product 3">
+                    <video src="./images/card video 3.mp4" muted loop></video>
+
+                    <div class="media-content">
+                        <h3>Product Three</h3>
+                        <p>Trending style</p>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="media-card">
+                    <img src="./images/card 2.png" alt="Product 4">
+                    <video src="./images/card video 4.mp4" muted loop></video>
+
+                    <div class="media-content">
+                        <h3>Product Four</h3>
+                        <p>Limited edition</p>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- card T sheits section -->
+
+
+        <div id="main-items2">
+            <div id="main-items2">
+                <p id="para2">T shirts</p>
+            </div>
+            <div id="main2">
+                <div id="Most-Loved-Products">
+                    <h2>Top Wishes</h2>
+                </div>
+                <div id="main3">
+                    <div id="para1">
+                        <p>Uncover the bestsellers everyone’s raving about.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cards-container">
+                <div class="card">
+                    <img src="./images/T1.png" alt="Card 1" onmouseover="changeImage2()" id="iamgeChange2"
+                        onmouseleave="resendImage2()">
+                    <div class="card-details">
+                        <h3>Product 1</h3>
+                        <p>Clean and modern design.</p>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/t2.png" alt="Card 2" onmouseover="changeImage3()" id="iamgeChange3"
+                        onmouseleave="resendImage3()">
+                    <div class="card-details">
+                        <h3>Product 2</h3>
+                        <p>High-quality professional layout.</p>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/t3.png" alt="Card 3" onmouseover="changeImage4()" id="iamgeChange4"
+                        onmouseleave="resendImage4()">
+                    <div class="card-details">
+                        <h3>Product 3</h3>
+                        <p>Fully responsive and sleek.</p>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/t4.png" alt="Card 4" onmouseover="changeImage5()" id="iamgeChange5"
+                        onmouseleave="resendImage5()">
+                    <div class="card-details">
+                        <h3>Product 4</h3>
+                        <p>Interactive hover effects.</p>
+                        <button id="alert" onclick="alertFunction()">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+      
+            <!-- video cards T shirt section -->
+
+            
 
         <!-- hero section -->
 
