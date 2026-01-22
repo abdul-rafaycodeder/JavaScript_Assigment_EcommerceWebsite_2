@@ -1,3 +1,146 @@
+/* ========================= */
+/* MOBILE FIRST */
+/* ========================= */
 
+@media (max-width: 576px) {
 
+  /* NAVBAR */
+  nav {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
 
+  #nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* HERO IMAGE */
+  #hero-img img {
+    height: auto;
+  }
+
+  /* SHOP BY JEWELRY */
+  #images {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  #images img {
+    width: 45%;
+    height: auto;
+  }
+
+  #image-text {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* HERO SECTION 2 */
+  #main {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px;
+  }
+
+  #div-h1 h1 {
+    font-size: 36px;
+  }
+
+  #div-para p {
+    font-size: 16px;
+  }
+
+  #div-img {
+    margin-left: 0;
+  }
+
+  #div-img img {
+    width: 100%;
+  }
+
+  /* LATEST JEWELRY */
+  #images-2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #images-2 img {
+    width: 90%;
+    height: auto;
+  }
+
+  /* REVIEWS */
+  #allDivs {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* SERVICES */
+  #images4 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #images4 img {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* ========================= */
+/* TABLETS */
+/* ========================= */
+
+@media (min-width: 577px) and (max-width: 992px) {
+
+  nav {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  #images img {
+    width: 180px;
+    height: auto;
+  }
+
+  #main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #div-img img {
+    width: 80%;
+  }
+
+  #images-2 img,
+  #images4 img {
+    width: 280px;
+    height: auto;
+  }
+
+  #allDivs {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+/* ========================= */
+/* LARGE SCREENS */
+/* ========================= */
+
+@media (min-width: 1400px) {
+
+  #div-h1 h1 {
+    font-size: 64px;
+  }
+
+  #div-para p {
+    font-size: 22px;
+  }
+
+  #images img {
+    width: 250px;
+  }
+}
